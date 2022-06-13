@@ -20,25 +20,25 @@
 
     <div class="profile-card__cnt js-profile-cnt">
       <div class="profile-card__name">Onet'Z</div>
-      <div class="profile-card__txt">Student from <strong>MAN 1 BARRU</strong></div>
+      <div class="profile-card__txt">People from <strong>Earth</strong></div>
       <div class="profile-card-loc">
         <span class="profile-card-loc__icon">
           <svg class="icon"><use xlink:href="#icon-location"></use></svg>
         </span>
 
         <span class="profile-card-loc__txt">
-          Barru, Indonesia
+          Bumi,Planet Ke-3 dari Pusat Tata Surya
         </span>
       </div>
 
       <div class="profile-card-inf">
         <div class="profile-card-inf__item">
-          <div class="profile-card-inf__title">160</div>
+          <div class="profile-card-inf__title">-</div>
           <div class="profile-card-inf__txt">Followers</div>
         </div>
 
         <div class="profile-card-inf__item">
-          <div class="profile-card-inf__title">107</div>
+          <div class="profile-card-inf__title">-</div>
           <div class="profile-card-inf__txt">Following</div>
         </div>
 
@@ -48,7 +48,7 @@
         </div>
 
         <div class="profile-card-inf__item">
-          <div class="profile-card-inf__title">Student</div>
+          <div class="profile-card-inf__title">-</div>
           <div class="profile-card-inf__txt">Job</div>
         </div>
       </div>
@@ -105,18 +105,18 @@
     </div>
 
     <div class="profile-card-message">
-      <form class="profile-card-form">
+      <form class="profile-card-form" method="post">
         <div class="profile-card-form__container">
           <textarea placeholder="Tulis sebuah pesan..." id="pesanku"></textarea>
         </div>
 
         <div class="profile-card-form__bottom">
           <button onclick="Kirim();" class="profile-card__button button--blue">
-            Send
+            Kirim
           </button>
 
           <button class="profile-card__button button--gray">
-            Cancel
+            Batal
           </button>
         </div>
       </form>
@@ -188,6 +188,7 @@
   <script  src="script.js"></script>
   <script>
   	function Foll(){
+  	alert('THANK YOU FOR YOUR FOLLOWING ME 😊😊');
   	window.open('https://www.instagram.com/kaswannn_, _blank');
   }
   function Kirim(){
@@ -195,6 +196,7 @@
     var pesan = document.getElementById('pesanku').value;
      window.open('https://api.whatsapp.com/send?phone='+nomor+'&text='+pesan);
     }
+    console.log('MAKASIHH YAA');
 </script>
 </body>
 </html>
